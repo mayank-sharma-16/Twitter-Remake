@@ -79,34 +79,32 @@
                                         <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="j7t-bE-Z4R">
                                             <rect key="frame" x="16" y="11" width="65" height="65"/>
                                             <constraints>
-                                                <constraint firstAttribute="width" constant="65" id="rYA-BJ-bLc"/>
-                                                <constraint firstAttribute="height" constant="65" id="xMg-1t-mhC"/>
+                                                <constraint firstAttribute="width" constant="65" id="DSg-D6-MJR"/>
+                                                <constraint firstAttribute="height" constant="65" id="Xsf-oS-L86"/>
                                             </constraints>
                                         </imageView>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="John Doe" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iAf-xX-03l">
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="John Doe" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iAf-xX-03l">
                                             <rect key="frame" x="89" y="11" width="82" height="22"/>
                                             <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
                                             <nil key="textColor"/>
                                             <nil key="highlightedColor"/>
                                         </label>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jz9-2W-Dya">
-                                            <rect key="frame" x="90" y="37" width="269" height="157"/>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jz9-2W-Dya">
+                                            <rect key="frame" x="89" y="37" width="270" height="157"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                             <nil key="textColor"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                     </subviews>
                                     <constraints>
-                                        <constraint firstAttribute="trailingMargin" secondItem="j7t-bE-Z4R" secondAttribute="trailing" constant="237" id="1J6-h7-j4i"/>
-                                        <constraint firstItem="jz9-2W-Dya" firstAttribute="top" secondItem="iAf-xX-03l" secondAttribute="bottom" constant="4" id="F5T-B9-djA"/>
-                                        <constraint firstItem="jz9-2W-Dya" firstAttribute="leading" secondItem="j7t-bE-Z4R" secondAttribute="trailing" constant="8" id="NT3-VV-7Sq"/>
-                                        <constraint firstItem="jz9-2W-Dya" firstAttribute="trailing" secondItem="QQn-Sq-yjH" secondAttribute="trailingMargin" id="OeD-uu-vem"/>
-                                        <constraint firstItem="jz9-2W-Dya" firstAttribute="bottom" secondItem="QQn-Sq-yjH" secondAttribute="bottomMargin" id="RtT-vq-nGn"/>
-                                        <constraint firstItem="j7t-bE-Z4R" firstAttribute="top" secondItem="QQn-Sq-yjH" secondAttribute="topMargin" id="Xlc-RV-U41"/>
-                                        <constraint firstAttribute="bottomMargin" secondItem="j7t-bE-Z4R" secondAttribute="bottom" id="eqI-65-j1p"/>
-                                        <constraint firstItem="iAf-xX-03l" firstAttribute="leading" secondItem="j7t-bE-Z4R" secondAttribute="trailing" constant="8" id="gaz-KJ-fDt"/>
-                                        <constraint firstItem="j7t-bE-Z4R" firstAttribute="leading" secondItem="QQn-Sq-yjH" secondAttribute="leadingMargin" id="ole-2E-fSm"/>
-                                        <constraint firstItem="iAf-xX-03l" firstAttribute="top" secondItem="QQn-Sq-yjH" secondAttribute="topMargin" id="r8t-Ez-8ht"/>
+                                        <constraint firstItem="jz9-2W-Dya" firstAttribute="leading" secondItem="j7t-bE-Z4R" secondAttribute="trailing" constant="8" id="2nO-3p-ayW"/>
+                                        <constraint firstItem="j7t-bE-Z4R" firstAttribute="top" secondItem="QQn-Sq-yjH" secondAttribute="topMargin" id="48y-hf-s5r"/>
+                                        <constraint firstItem="j7t-bE-Z4R" firstAttribute="leading" secondItem="QQn-Sq-yjH" secondAttribute="leadingMargin" id="5JC-g9-gDf"/>
+                                        <constraint firstItem="jz9-2W-Dya" firstAttribute="bottom" secondItem="QQn-Sq-yjH" secondAttribute="bottomMargin" id="HsQ-5n-WBF"/>
+                                        <constraint firstItem="jz9-2W-Dya" firstAttribute="top" secondItem="iAf-xX-03l" secondAttribute="bottom" constant="4" id="PTX-rK-JIG"/>
+                                        <constraint firstItem="iAf-xX-03l" firstAttribute="leading" secondItem="j7t-bE-Z4R" secondAttribute="trailing" constant="8" id="YoV-Ce-NF8"/>
+                                        <constraint firstItem="jz9-2W-Dya" firstAttribute="trailing" secondItem="QQn-Sq-yjH" secondAttribute="trailingMargin" id="gY1-SH-FcS"/>
+                                        <constraint firstItem="iAf-xX-03l" firstAttribute="top" secondItem="QQn-Sq-yjH" secondAttribute="topMargin" id="tRF-wC-Kow"/>
                                     </constraints>
                                 </tableViewCellContentView>
                                 <connections>
